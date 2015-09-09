@@ -1,0 +1,30 @@
+
+#left{
+    height: 100%;
+    background: #282828;
+    text-align: center;
+    padding-top: 15%;
+    font-size: 96px;
+    font-family: 'Exo 2', sans-serif;
+    color: #dddddd;
+}
+
+#left #caption {
+    padding-top: 10%;
+    font-size: 54px;
+    font-style: italic;
+}
+
+#right{
+    background: #dddddd;
+    text-align: center;
+    padding-top: 5%;
+}
+
+form {
+    text-align: left;
+}
+
+#signin {
+    margin-bottom: 55px;
+}
