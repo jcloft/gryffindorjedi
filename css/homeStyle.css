@@ -1,0 +1,38 @@
+.container-fluid {
+    background: black;
+}
+
+.wrapper {
+    background: #282828;
+}
+
+.content {
+    height: 100vh;
+}
+
+.logo {
+    font-family: 'Exo 2', sans-serif;
+    color: #dddddd;
+}
+
+.nav {
+    margin-top: 15px;
+    float:left;
+}
+
+.nav li {
+    margin-top: px;
+    height: 100px;
+    width: 100px;
+    background: #dddddd;
+    text-align: center;
+    padding-top: 30%;
+}
+
+.nav li:hover {
+    background: #666;
+}
+
+.nav li a:hover {
+    background: none !important;
+}
