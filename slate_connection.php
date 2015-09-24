@@ -1,6 +1,6 @@
 <?php
 // DB connection info
-$servername = "tcp:slateproject.database.windows.net";
+$servername = "slateproject.database.windows.net";
 $username = "jedi";
 $password = "4Gryffindor!";
 // Create connection
