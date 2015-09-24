@@ -5,7 +5,7 @@ $user = "jedi";
 $pwd = "4Gryffindor!";
 $db = "slate";
 try{
-    $conn = new PDO( "sqlsrv:Server= $host ; Database = $db ", $user, $pwd);
+    $conn = new PDO( "mysql:Server= $host ; Database = $db ", $user, $pwd);
     $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
     $sql = "CREATE TABLE registration_tbl(
     id INT NOT NULL IDENTITY(1,1) 
