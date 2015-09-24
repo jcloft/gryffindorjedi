@@ -11,6 +11,6 @@ if($conn === false)
 }
 else
 {
-  echo "Finally fucking connected."
+  echo "Finally fucking connected.";
 }
 ?>
