@@ -1,3 +1,4 @@
+<?php
 $serverName = "tcp:slateproject.database.windows.net, 1433";
 $connectionOptions = array("Database" => "slate", 
                            "UID" => "jedi@slateproject",
@@ -8,3 +9,4 @@ if($conn === false)
 {
     die(print_r(sqlsrv_errors(), true));
 }
+?>
