@@ -13,7 +13,7 @@
 var app = angular.module('myApp', ['ngRoute']);
     
     app.config(function($routeProvider){
-      $routeProvider.when("/",
+      $routeProvider.when("/home.php",
         {
           templateUrl: "landing.html",
           controller: "homeCtrl",

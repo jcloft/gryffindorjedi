@@ -37,7 +37,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-4" id="right">
-                        <form class="row col-xs-12 col-sm-10 col-sm-offset-1" id="signin">
+                        <form action="/home" class="row col-xs-12 col-sm-10 col-sm-offset-1" id="signin">
                         <h1>Sign-In</h1>
                           <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
@@ -50,7 +50,7 @@
                           <button type="submit" class="btn btn-default">Sign-in</button>
                         </form>
                         <div class="row col-xs-12" id="signup">
-                            <h3>Need an account?<br><a href="home.html">Sign Up</a></h3>
+                            <h3>Need an account?<br><a href="#">Sign Up</a></h3>
                         </div>
                 
                     </div>
