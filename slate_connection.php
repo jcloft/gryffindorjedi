@@ -1,16 +1,14 @@
-<?php
-$servername = "slateproject.database.windows.net";
-$username = "jedi";
-$password = "4Gryffindor!";
+  $serverName = "tcp:slateproject.database.windows.net,1433";
+   $userName = 'jedi';
+   $userPassword = '4Gryffindor!';
+   $dbName = "slate";
+   $table = "slate";
 
-try {
-    $conn = new PDO("mysql:host=$servername;dbname=slate", $username, $password);
-    // set the PDO error mode to exception
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    echo "Connected successfully"; 
-    }
-catch(PDOException $e)
-    {
-    echo "Connection failed: " . $e->getMessage();
-    }
-?>
+   $connectionInfo = array("Database"=>$dbName, "UID"=>$userName, "PWD"=>$userPassword, "MultipleActiveResultSets"=>true);
+
+   sqlsrv_configure('WarningsReturnAsErrors', 0);
+   $conn = sqlsrv_connect( $serverName, $connectionInfo);
+   if($conn === false)
+   {
+     FatalError("Failed to connect...");
+   }
