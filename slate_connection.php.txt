@@ -1,6 +1,6 @@
 <?php
 // DB connection info
-$host = "slateproject.database.windows.net";
+$host = "tcp:slateproject.database.windows.net";
 $user = "jedi";
 $pwd = "4Gryffindor!";
 $db = "registration";
