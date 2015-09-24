@@ -4,7 +4,7 @@
    $dbName = "slate";
    $table = "slate";
 
-   $connectionInfo = array("Database"=>$dbName, "UID"=>$userName, "PWD"=>$userPassword, "MultipleActiveResultSets"=>true);
+   $connectionInfo = array(UID"=>$userName, "PWD"=>$userPassword, "MultipleActiveResultSets"=>true);
 
    sqlsrv_configure('WarningsReturnAsErrors', 0);
    $conn = sqlsrv_connect( $serverName, $connectionInfo);
