@@ -1,14 +1,4 @@
 <?php
-$servername = "slateproject.database.windows.net";
-$username = "jedi";
-$password = "4Gryffindor!";
-
-// Create connection
-$conn = new mysqli($servername, $username, $password);
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-} 
-echo "Connected successfully";
+mysql_connect("slateproject.database.windows.net", "jedi", "4Gryffindor!") or die(mysql_error());
+echo "Connected to MySQL<br />";
 ?>
