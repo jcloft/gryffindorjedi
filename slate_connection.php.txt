@@ -1,6 +1,6 @@
 <?php
 // DB connection info
-$host = "localhost\sqlexpress";
+$host = "slateproject.database.windows.net";
 $user = "jedi";
 $pwd = "4Gryffindor!";
 $db = "registration";
