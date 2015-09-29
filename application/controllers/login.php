@@ -39,7 +39,7 @@ class Login extends CI_Controller {
                   'loggedin'        => TRUE
                   ));
 
-                //redirect('the main lobby', 'refresh');
+                //redirect('the main lobby controller function that loads the lobby controllername/functionname', 'refresh');
 
               }
               else {
@@ -53,7 +53,7 @@ class Login extends CI_Controller {
         }
       }
       else {
-        //redirect('to the main lobby', 'refresh');
+        //redirect('to the main lobby controller function that loads the lobby controllername/functionname', 'refresh');
       }
 
 
@@ -65,7 +65,7 @@ class Login extends CI_Controller {
       $loggedin = $this->session->userdata('loggedin');
 
       if ($loggedin == FALSE) {
-          //$this->load->view('registration page');
+          //$this->load->view('registration page'); load the registration page
           if(isset($_POST['username']) && isset($_POST['password']) && isset($_POST['confirm_pass']))
           {
 
@@ -91,12 +91,12 @@ class Login extends CI_Controller {
             }
             else {
               $this->Login->register($username, $hash, $pwSalt, $salt);
-              //redirect('', 'refresh');
+              redirect('login/index', 'refresh');
             }
           }
       }
       else {
-        //redirect('', 'refresh');
+        //redirect('redirect to main lobby controller controllername/functionname', 'refresh');
       }
 
 

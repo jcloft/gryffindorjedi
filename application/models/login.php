@@ -9,7 +9,7 @@
 		$this->db->select('salt, password_hash');
 		$this->db->where('username', $username);
 		$this->db->where('password_hash', $this->encrypt->sha1($password));
-		$query = $this->db->get('authentication', 1);
+		$query = $this->db->get('users', 1);
 		//do hashes in DB
 
 		return $query->num_rows();
@@ -19,7 +19,7 @@
 	{
 		$this->db->select('username');
 		$this->db->where('username', $username);
-		$query = $this->db->get('authentication', 1);
+		$query = $this->db->get('users', 1);
 
 		return $query->num_rows();
 	}
@@ -32,7 +32,7 @@
    				'salt' => $salt
 			);
 
-			$this->db->insert('authentication', $register_query);
+			$this->db->insert('users', $register_query);
 	}
 
 }
