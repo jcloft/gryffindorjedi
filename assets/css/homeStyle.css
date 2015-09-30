@@ -1,0 +1,93 @@
+.container-fluid {
+    background: white;
+}
+
+.wrapper {
+    background: #282828;
+}
+
+.logo {
+    display: inline;
+    margin-left: 25px;
+}
+
+.fa-cog {
+    float: right;
+    margin-top: 15px;
+}
+.fa-power-off {
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.fa-user {
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.content {
+    height: 100vh;
+}
+
+.logo {
+    font-family: 'Exo 2', sans-serif;
+    color: #dddddd;
+    font-size: 48px;
+}
+
+.nav {
+/*    position: absolute;*/
+    margin-top: 15px;
+    float:left;
+}
+
+.nav li {
+    height: 100px;
+    width: 250px;
+    background: #aaaaaa;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.nav li:hover {
+    background: #666;
+}
+
+.nav li a {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 32px;
+    color: #111111;
+    text-align: left;
+}
+
+.nav li a:hover {
+    background: none !important;
+}
+
+
+.item {
+    text-align: center;
+    height: 250px;
+    background: #dddddd;
+}
+
+.item:hover{
+    background: #666;
+}
+
+#item1, #item2, #item3 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+/*    float: right;*/
+}
+#item3, #item4 {
+/*    float: right;*/
+}
+#item1, #item2, #item4, #item5 {
+    
+    margin-right: 5px;
+}
+#item3 {
+    margin-right: 5px;
+}
