@@ -105,10 +105,12 @@ class Login extends CI_Controller {
     public function logout() {
 
           $this->session->sess_destroy();
+          $this->db->close();
           redirect('index', 'refresh');
     }
 
 
     }
+    $this->db->close();
 }
 ?>

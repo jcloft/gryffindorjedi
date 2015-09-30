@@ -34,6 +34,6 @@
 
 			$this->db->insert('users', $register_query);
 	}
-
+	$this->db->close();
 }
 ?>
