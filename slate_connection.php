@@ -5,12 +5,7 @@ $connectionOptions = array("Database" => "slate",
                            "PWD" => "4Gryffindor!");
 $conn = sqlsrv_connect($serverName, $connectionOptions);
  
-if($conn === false)
-{
-    die(print_r(sqlsrv_errors(), true));
-}
-else
-{
-  echo "Finally fucking connected.";
+if($conn){
+  echo "connected";
 }
 ?>
