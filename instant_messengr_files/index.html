@@ -59,7 +59,7 @@
     				$('#nickName').hide();
     				$('#contentWrap').show();
     			}else{
-    				$nickErr.html('Username already exists');
+    				$('#nickErr').html('Username already exists');
     			}
     			
     		});
@@ -73,6 +73,7 @@
     		{
     			html += data[i] + '<br/>';//semicolon?
     		}
+    		$('#users').html(html);
     	});
     	
     	$('#sendForm').submit(function(){

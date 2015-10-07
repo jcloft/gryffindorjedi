@@ -37,8 +37,6 @@ io.on('connection', function(socket){
 	
 	});
 	
-	
-	
 	socket.on('disconnect', function(data){
     		
     		if(!socket.nickname) return;
