@@ -75,7 +75,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'slateproject.database.windows.net',
+	'hostname' => 'waws-prod-ch1-007.ftp.azurewebsites.windows.net',
 	'username' => 'jedi',
 	'password' => '4Gryffindor!',
 	'database' => 'slate',
