@@ -110,7 +110,7 @@ class Login extends CI_Controller {
     }
 
 
-    }
-    $this->db->close();
+
+    //$this->db->close();
 }
 ?>
