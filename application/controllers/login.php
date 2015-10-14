@@ -9,7 +9,7 @@ class Login extends CI_Controller {
     $this->load->library('encrypt');
     $this->load->helper('security');
     $this->load->helper('url');
-    $this->load->model('Login');
+    $this->load->model('login');
   }
 
 
