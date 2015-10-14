@@ -75,7 +75,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'slateproject',
+	'hostname' => 'slateproject.database.windows.net',
 	'username' => 'jedi',
 	'password' => '4Gryffindor!',
 	'database' => 'slate',
