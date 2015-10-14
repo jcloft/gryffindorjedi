@@ -75,11 +75,11 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'slateproject.database.windows.net',
+	'hostname' => 'slateproject.database.windows.net,1433',
 	'username' => 'jedi',
 	'password' => '4Gryffindor!',
 	'database' => 'slate',
-	'dbdriver' => 'mssql',
+	'dbdriver' => 'sqlsrv',
 	'dbprefix' => 'dbo.',
 	'pconnect' => FALSE,
 	'db_debug' => TRUE,
