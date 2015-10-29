@@ -9,7 +9,7 @@ class Login extends CI_Controller {
     $this->load->library('encrypt');
     $this->load->helper('security');
     $this->load->helper('url');
-    //$this->load->model('Login');
+    $this->load->model('Login');
   }
 
 
@@ -49,7 +49,7 @@ class Login extends CI_Controller {
 
         }
         else {
-          echo 'Please Enter a Username and Password';
+          //echo 'Please Enter a Username and Password';
         }
       }
       else {
