@@ -11,15 +11,15 @@
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-        <link rel="stylesheet" href="<?php echo base_url('assets/css/style.css')?>">
+        <link rel="stylesheet" href="http://slateproject.azurewebsites.net/assets/css/style.css">
         <link href='https://fonts.googleapis.com/css?family=Exo+2:400,200' rel='stylesheet' type='text/css'>
-        
+
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-route.min.js"></script>
-        
-        
+
+
     </head>
-    
+
     <body>
         <div class="container-fluid">
             <div class="wrapper">
@@ -52,10 +52,10 @@
                         <div class="row col-xs-12" id="signup">
                             <h3>Need an account?<br><a href="#">Sign Up</a></h3>
                         </div>
-                
+
                     </div>
             </div>
         </div>
     </body>
-    
+
 </html>
