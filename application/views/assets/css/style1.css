@@ -1,0 +1,70 @@
+.container-fluid {
+/*    height: 100vh;*/
+    width: 100vw;
+}
+
+.wrapper { 
+/*   max-height: 100%;*/
+}
+
+#bgleft{
+    height: 100%;
+    position: absolute;
+    background: #282828 center no-repeat fixed;
+}
+
+#bgright{
+    background: #dddddd center no-repeat fixed;
+    height: 100%;
+    position: absolute;
+}
+
+#left{
+/*    height: 100%;*/
+    text-align: center;
+    font-size: 96px;
+    font-family: 'Exo 2', sans-serif;
+    color: #dddddd;
+    padding-top: 18%;
+}
+
+#left #caption {
+    padding-top: 5%;
+    font-size: 54px;
+    font-style: italic;
+}
+
+#right{
+    height: 100%;
+    text-align: center;
+    padding-top: 10%;
+}
+
+form {
+    text-align: left;
+}
+
+#signin {
+    margin-bottom: 55px;
+}
+#signup {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    #bgleft {
+        position: absolute;
+        top: 0;
+        height: 60%
+    }
+    #bgright {
+        position: absolute;
+        top: 60%;
+    }
+    #left {
+        padding-top: 5%;
+    }
+    #right {
+        padding-top: 100px;
+    }
+}
