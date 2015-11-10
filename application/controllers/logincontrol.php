@@ -18,7 +18,7 @@ class LoginControl extends CI_Controller {
       $loggedin = $this->session->userdata('loggedin');
       $loggedin = FALSE;
       if ($loggedin == FALSE) {
-        $this->load->view('index');
+        $this->load->view('login');
         if(isset($_POST['username']) && isset($_POST['password']))
         {
 
