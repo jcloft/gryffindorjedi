@@ -75,7 +75,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'slateproject.slateproject.g3.internal.cloudapp.net',
+	'hostname' => 'localhost',
 	'username' => 'root',
 	'password' => '#JediRock',
 	'database' => 'slate',
