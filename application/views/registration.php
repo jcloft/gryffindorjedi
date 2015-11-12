@@ -1,5 +1,5 @@
 <h1>Registration</h1>
-<?  $this->load->helper('form');
+<?php  $this->load->helper('form');
 	$form_attributes = array('class' => 'register', 'id' => 'register');
 	echo form_open('logincontrol/register', $form_attributes);
 	$user_data = array('name' => 'username',
