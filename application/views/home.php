@@ -3,7 +3,7 @@
     <head>
         <title>Home</title>
         
-        <link rel=stylesheet href="http://slateproject.me/gryffindorejedi/assets/css/homeStyle.css">
+        <link rel=stylesheet href="http://slateproject.me/gryffindorjedi/assets/css/homeStyle.css">
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 

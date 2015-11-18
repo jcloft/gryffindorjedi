@@ -15,7 +15,7 @@ var app = angular.module('myApp', ['ngRoute']);
     app.config(function($routeProvider){
       $routeProvider.when("/home.php",
         {
-          templateUrl: "landing.html",
+          templateUrl: "partials/default.html",
           controller: "homeCtrl",
           controllerAs: "app"
         });
