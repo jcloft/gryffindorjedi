@@ -109,8 +109,5 @@ class LoginController extends CI_Controller {
           redirect('index', 'refresh');
     }
 
-
-
-    //$this->db->close();
 }
 ?>
