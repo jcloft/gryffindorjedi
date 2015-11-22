@@ -19,9 +19,9 @@ var app = angular.module('webApp', ['ngRoute']);
 app.config(['$routeProvider', function($routeProvider) {
     $routeProvider
 // Home
-        .when("/", {templateUrl: "partials/default.php", controller: "PageCtrl"})
-        .when("/home", {templateUrl: "partials/default.php", controller: "PageCtrl"})
-        .when("/class", {templateUrl: "partials/class.php", controller: "PageCtrl"});
+        .when("/", {templateUrl: "application/views/partials/default.php", controller: "PageCtrl"})
+        .when("/home", {templateUrl: "application/views/partials/default.php", controller: "PageCtrl"})
+        .when("/class", {templateUrl: "application/views/partials/class.php", controller: "PageCtrl"});
        
 }]);
 
@@ -31,7 +31,7 @@ app.controller('PageCtrl', function($scope, $location, $http) {
 
 app.controller('PeopleCtrl', function ($scope, $http) {
   $scope.people = []
-  $http.get('content.json')
+  $http.get('application/views/content.json')
     .success(function(data) {
         $scope.people = data;
         console.log(data);
