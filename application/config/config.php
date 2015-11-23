@@ -17,7 +17,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-$config['base_url'] = '';
+$config['base_url'] = 'http://slateproject.me/gryffindorjedi';
+//$config['base_url'] = 'localhost:8888/gryffindorjedi';
 
 /*
 |--------------------------------------------------------------------------
@@ -308,7 +309,7 @@ $config['cache_query_string'] = FALSE;
 | http://codeigniter.com/user_guide/libraries/encryption.html
 |
 */
-$config['encryption_key'] = '';
+$config['encryption_key'] = 'rLj52cxk8yXaihp3d4L3YS6tf8x3xMG8';
 
 /*
 |--------------------------------------------------------------------------

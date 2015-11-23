@@ -1,0 +1,173 @@
+.container-fluid {
+    background: #282828;
+}
+
+.wrapper {
+    background: #282828;
+    padding-top: 100px;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  background: black;
+}
+
+.navbar .container-fluid {
+  background: #fff;
+  height: 75px;
+  padding-top: 10px;
+  color: black;
+  
+}
+
+.nav a {
+  color: white;
+  margin-top: 15px;
+  padding: 0;
+}
+
+.logo {
+    display: inline;
+    margin-left: 25px;
+    color: black;
+}
+
+.fa-cog {
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.fa-power-off {
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.fa-user {
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.fa-home {
+  float: right;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+.menulink {
+  color: #666;
+}
+
+.menulink:hover {
+  color: black;
+}
+
+.content {
+    height: 60px;
+}
+
+.logo {
+    font-family: 'Exo 2', sans-serif;
+    color: black;
+    font-size: 24px;
+}
+
+
+.item {
+    //font-family: "Helvetica Neue", Helvetica, Arial,sans-serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+    text-align: left;
+    height: 250px;
+    //background: #dddddd;
+    color: white;
+}
+
+.btn-outline {
+    background: none;
+    border: 1px solid white !important;
+    
+}
+
+.btn-outline:hover {
+    background: white;
+    color: black;
+}
+
+#item1, #item2, #item3 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+/*    float: right;*/
+}
+
+#chat {
+    height: 500px;
+    margin-left: 0;
+}
+
+#chat::before {
+  content: '';
+  position: absolute;
+  height: 90%;
+  left: 0;
+  width: 1px;
+  border: 1px solid #666;
+}
+
+#timeline {
+    padding-top: 5px;
+    height: 250px;
+    //background: white;
+    position: relative;
+    border-top: 2px solid #666;
+}
+
+#class {
+  height: 1000px;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+  
+}
+
+#class #left, #class #center, #class #right, #class #links {
+  padding-top: 5%;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  position: relative;
+  height: 500px;
+  font-family: 'Exo 2', sans-serif;
+}
+
+#class #left, #class #center {
+  //border-right: 1px black solid;
+}
+
+#class #left::before, #class #right::before{
+  content:"";
+  position: absolute;
+  width: 1px;
+  border: 1px solid #666;
+  right: 0;
+  height: 80%;
+}
+
+#class #due, #class #grades, #class #messages, #class #ccontent {
+  text-align: left;
+}
+
+#class #due h3, #class #grades h3, #class #messages h3, #class #ccontent h3 {
+    font-size: 14px;
+    display: inline;
+  
+}
+
+#class #due p, #class #grades p, #class #messages p, #class #ccontent p {
+  display: inline;
+}
+
+
+  
+
