@@ -31,7 +31,7 @@ app.controller('PageCtrl', function($scope, $location, $http) {
 
 app.controller('PeopleCtrl', function ($scope, $http) {
   $scope.people = []
-  $http.get('application/views/content.json')
+  $http.get('content.json')
     .success(function(data) {
         $scope.people = data;
         console.log(data);
