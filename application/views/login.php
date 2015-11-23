@@ -48,7 +48,7 @@
                             <label for="exampleInputPassword1">Password</label>
                             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
                           </div>
-                          <button type="submit" class="btn btn-default" onclick="location.href='http://slateproject.me/gryffindorjedi/home.php'">Sign-in</button>
+                          <button type="submit" class="btn btn-default" onclick="location.href='http://slateproject.me/gryffindorjedi/application/views/home.php'">Sign-in</button>
                         </form>
                         <div class="row col-xs-12" id="signup">
                             <h3>Need an account?<br><a href="http://slateproject.me/gryffindorjedi/application/views/registration.php">Sign Up</a></h3>
