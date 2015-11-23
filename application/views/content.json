@@ -1,0 +1,33 @@
+[
+  {"className":"$class1",
+   "teacherName":"$teacher1",
+   "time":"$time1",
+   "notifications":"$notifications1"
+  },
+  {"className":"$class2",
+   "teacherName":"$teacher2",
+   "time":"$time2",
+   "notifications":"$notifications2"
+  },
+  {"className":"$class3",
+   "teacherName":"$teacher3",
+   "time":"$time3",
+   "notifications":"$notifications3"
+  },
+  {"className":"$class4",
+   "teacherName":"$teacher4",
+   "time":"$time4",
+   "notifications":"$notifications4"
+  },
+  {"className":"$class5",
+   "teacherName":"$teacher5",
+   "time":"$time5",
+   "notifications":"$notifications5"
+  },
+  {"className":"$class6",
+   "teacherName":"$teacher6",
+   "time":"$time6",
+   "notifications":"$notifications6"
+  }
+  
+]

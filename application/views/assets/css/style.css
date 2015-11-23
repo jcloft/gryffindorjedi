@@ -1,0 +1,55 @@
+/* line 1, sass/style.scss */
+.container-fluid {
+  width: 100vw;
+}
+
+/* line 5, sass/style.scss */
+#bgleft {
+  height: 100%;
+  position: absolute;
+  background: #282828 center no-repeat fixed;
+}
+
+/* line 11, sass/style.scss */
+#bgright {
+  background: #dddddd center no-repeat fixed;
+  height: 100%;
+  position: absolute;
+}
+
+/* line 17, sass/style.scss */
+#left {
+  text-align: center;
+  font-size: 96px;
+  font-family: 'Exo 2', sans-serif;
+  color: #dddddd;
+  padding-top: 18%;
+}
+/* line 24, sass/style.scss */
+#left #caption {
+  padding-top: 5%;
+  font-size: 54px;
+  font-style: italic;
+}
+
+/* line 31, sass/style.scss */
+#right {
+  height: 100%;
+  text-align: center;
+  padding-top: 10%;
+}
+
+/* line 37, sass/style.scss */
+form {
+  text-align: left;
+}
+
+/* line 41, sass/style.scss */
+#signin {
+  margin-bottom: 55px;
+}
+
+/* line 44, sass/style.scss */
+#signup {
+  text-align: center;
+}

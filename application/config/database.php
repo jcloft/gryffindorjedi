@@ -75,12 +75,12 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'slateproject.database.windows.net,1433',
-	'username' => 'jedi',
-	'password' => '4Gryffindor!',
+	'hostname' => 'localhost',
+	'username' => 'root',
+	'password' => '#JediRock',
 	'database' => 'slate',
-	'dbdriver' => 'sqlsrv',
-	'dbprefix' => 'dbo.',
+	'dbdriver' => 'mysqli',
+	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => TRUE,
 	'cache_on' => FALSE,

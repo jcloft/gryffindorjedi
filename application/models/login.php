@@ -1,4 +1,4 @@
-<? class Login extends CI_Model {
+<?php class Login extends CI_Model {
 	//active record code igniter
 	function __construct() {
 		parent::__construct();
